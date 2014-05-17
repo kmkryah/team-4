@@ -56,6 +56,13 @@ h1{
 	font-family: "Roboto Slab", American, serif;
 }
 
+html, body {
+	margin: 0;
+    padding: 0;
+  	height: 100%;
+  	min-height: 100%; /* for firefox */
+}
+
 #container{
 	width: auto;
 	min-height: 3000px;
@@ -102,6 +109,8 @@ h1{
 	position: relative;
 	margin: 50px;
 	margin-bottom: 50px;
+	left: 300px;
+	bottom: 600px;
 }
 
 #photo3{
@@ -110,6 +119,8 @@ h1{
 	position: relative;
 	margin: 50px;
 	margin-bottom: 50px;
+	left: 600px;
+	bottom: 1200px;
 }
 
 #photo4{
@@ -117,7 +128,9 @@ h1{
 	height: 200px;
 	position: relative;
 	margin: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 50px; 
+	left: 900px;
+	bottom: 1800px;
 }
 
 #story{
@@ -125,7 +138,6 @@ h1{
 	width: 100%;
 	min-height: 750px;
 	margin-bottom: 50px;
-	margin-top: 50px;
 }
 
 #storyparagraphs{
