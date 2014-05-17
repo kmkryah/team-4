@@ -52,11 +52,14 @@ table {
 h1{
 	font-size: 48px;
 	color: blue;
+	text-align: center;
+	font-family: "Roboto Slab", American, serif;
 }
 
 #container{
 	width: auto;
-	height: 3000px;
+	min-height: 3000px;
+	height: 4400px;
 	margin: 100px;
 	background-color: #999966;
 	position: inherit;
@@ -66,7 +69,7 @@ h1{
 	width: auto;
 	height: 500px;
 	float: left;
-	margin: 0 auto;
+	
 }
 
 #colorbar{
@@ -75,14 +78,13 @@ h1{
 	background-color: red;
 	float: left;
 	vertical-align: bottom;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
 #PreviewPhoto{
 	width: auto;
-	height: 250px;
-	background-color: blue;
+	height: 200px;
 	padding: 50px;
 }
 
@@ -91,6 +93,7 @@ h1{
 	height: 200px;
 	position: relative;
 	margin: 50px;
+	margin-bottom: 50px;
 }
 
 #photo2{
@@ -98,6 +101,7 @@ h1{
 	height: 200px;
 	position: relative;
 	margin: 50px;
+	margin-bottom: 50px;
 }
 
 #photo3{
@@ -105,6 +109,7 @@ h1{
 	height: 200px;
 	position: relative;
 	margin: 50px;
+	margin-bottom: 50px;
 }
 
 #photo4{
@@ -112,4 +117,20 @@ h1{
 	height: 200px;
 	position: relative;
 	margin: 50px;
+	margin-bottom: 50px;
+}
+
+#story{
+	border: 2px solid black;
+	width: 100%;
+	min-height: 750px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#storyparagraphs{
+	-webkit-column-count:3; 
+	-moz-column-count:3; 
+	column-count:3;
+	font-family: Roboto, sans-serif;
 }
