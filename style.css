@@ -7,7 +7,7 @@
 
 h1{
 	font-size: 48px;
-	color: blue;
+	color: #803713;
 	text-align: center;
 	font-family: "Roboto Slab", American, serif;
 }
@@ -17,8 +17,8 @@ h1{
 	min-height: 3000px;
 	height: 4400px;
 	margin: 100px;
-	background-color:#999966;
-	position: inherit;
+	background-color:#806A5F;
+	/*position: inherit;*/
 }
 
 #HeadPhoto{
@@ -31,7 +31,7 @@ h1{
 #colorbar{
 	width: 100%;
 	height: 150px;
-	background-color: red;
+	background-color: #FFA578;
 	float: left;
 	vertical-align: bottom;
 	margin-top: 50px;
@@ -45,9 +45,9 @@ h1{
 }
 
 #photocontainer{
-	height:400px;
+	height:200px;
 	width: auto;
-	margin: 50px;
+	/*margin: 50px;*/
 }
 
 #photo1{
@@ -91,14 +91,56 @@ h1{
 
 #story{
 	border: 2px solid black;
-	width: 100%;
-	min-height: 750px;
+	width: auto;
+	min-height: 500px;
 	margin-bottom: 50px;
+	margin-top: 20px;
+	padding: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 #storyparagraphs{
-	-webkit-column-count:3; 
+	/*-webkit-column-count:3; 
 	-moz-column-count:3; 
-	column-count:3;
+	column-count:3;*/
 	font-family: Roboto, sans-serif;
+	font-size: 18px;
+}
+
+.box{
+	width:200px;
+	height:200px;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	position: relative;
+	word-wrap: break-word;
+}
+
+#boxA{
+	background-color: #01628C;
+	
+}
+
+#boxB{
+	background-color: #00B0D2;
+
+}
+
+#boxC{
+	background-color: #E6F7F9;
+	
+}
+	
+
+#boxD{
+	background-color: #96C34C;
+	
+}
+
+#boxE{
+	background-color: #333;
+	
 }
