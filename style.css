@@ -15,7 +15,7 @@ h1{
 #container{
 	width: auto;
 	min-height: 3000px;
-	height: 4400px;
+	height: 4700px;
 	margin: 100px;
 	background-color:#806A5F;
 	/*position: inherit;*/
@@ -46,7 +46,10 @@ h1{
 
 #photocontainer{
 	height:200px;
-	width: auto;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 	/*margin: 50px;*/
 }
 
@@ -89,7 +92,7 @@ h1{
 	bottom: 1800px;
 }
 
-#story{
+.story{
 	border: 2px solid black;
 	width: auto;
 	min-height: 500px;
@@ -100,12 +103,18 @@ h1{
 	padding-right: 200px;
 }
 
-#storyparagraphs{
+.storyparagraphs{
 	/*-webkit-column-count:3; 
 	-moz-column-count:3; 
 	column-count:3;*/
 	font-family: Roboto, sans-serif;
 	font-size: 18px;
+}
+
+.storypic{
+	width: auto;
+	height: 300px;
+	background-color: red;
 }
 
 .box{
@@ -117,6 +126,19 @@ h1{
 	padding: 10px;
 	position: relative;
 	word-wrap: break-word;
+}
+
+.captionbox{
+	width:200px;
+	height:100px;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+	position: relative;
+	word-wrap: break-word;
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
 }
 
 #boxA{
@@ -143,4 +165,13 @@ h1{
 #boxE{
 	background-color: #333;
 	
+}
+
+.home{
+	height: 25px;
+	width: 100px;
+	background-color: #CC581E;
+	text-align: center;
+	border: 2px solid black;
+	margin: 0 auto;
 }
