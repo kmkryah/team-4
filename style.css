@@ -14,7 +14,7 @@ h1{
 
 #container{
 	width: auto;
-	min-height: 3000px;
+	min-height: 5000px;
 	height: 4700px;
 	margin: 100px;
 	background-color:#806A5F;
@@ -34,7 +34,7 @@ h1{
 	background-color: #FFA578;
 	float: left;
 	vertical-align: bottom;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 50px;
 }
 
@@ -118,22 +118,23 @@ h1{
 }
 
 .box{
-	width:200px;
-	height:200px;
+	width:148px;
+	height:148px;
 	float: left;
 	margin-left: 50px;
 	margin-right: 50px;
 	padding: 10px;
 	position: relative;
 	word-wrap: break-word;
+	float: left;
 }
 
 .captionbox{
 	width:200px;
 	height:100px;
 	float: left;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 28px;
+	margin-right: 20px;
 	padding: 10px;
 	position: relative;
 	word-wrap: break-word;
