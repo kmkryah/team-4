@@ -33,3 +33,50 @@ console.log("Hello");
 function scrollLandlord(){
 	window.scrollTo(5,4461);
 }
+
+$(function() {
+        $("#houseBurn1").hover(
+            function() {
+                $(this).attr("src", "http://oi61.tinypic.com/20k3far.jpg");
+            },
+            function() {
+                $(this).attr("src", "http://housing.darton.edu/images/Off_Campus.png");
+            }                         
+        );                  
+    });
+
+
+$(function() {
+        $("#houseBurn2").hover(
+            function() {
+                $(this).attr("src", "http://oi61.tinypic.com/20k3far.jpg");
+            },
+            function() {
+                $(this).attr("src", "http://housing.darton.edu/images/Off_Campus.png");
+            }                         
+        );                  
+    });
+
+
+$(function() {
+        $("#houseBurn3").hover(
+            function() {
+                $(this).attr("src", "http://oi61.tinypic.com/20k3far.jpg");
+            },
+            function() {
+                $(this).attr("src", "http://housing.darton.edu/images/Off_Campus.png");
+            }                         
+        );                  
+    });
+
+
+$(function() {
+        $("#houseBurn4").hover(
+            function() {
+                $(this).attr("src", "http://oi61.tinypic.com/20k3far.jpg");
+            },
+            function() {
+                $(this).attr("src", "http://housing.darton.edu/images/Off_Campus.png");
+            }                         
+        );                  
+    });
